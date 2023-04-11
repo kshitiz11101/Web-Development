@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Borders and Backgrounds</title>
+    <style>
+        #firstPara {
+            background-color: red;
+            height: 100px;
+            width: 455px;
+            border: 4px solid green;
+            /* border-width: 4px;
+            border-color: green;
+            border-style: solid; */
+            border-radius: 10px;
+        }
+
+        #secondPara {
+            background-color: rgb(16, 83, 45);
+            height: 100px;
+            width: 455px;
+            border-top: 4px solid violet;
+            border-left: 4px solid rgb(170, 78, 99);
+            border-right: 4px solid rgb(58, 190, 46);
+            border-bottom: 4px solid rgb(78, 85, 114);
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-left-radius: 18px;
+            border-bottom-right-radius: 38px;
+        }
+        #thirdPara{
+            height: 500px;
+            width: 995px;
+            background-image: url('https://static01.nyt.com/images/2011/01/14/arts/14MOVING-span/MOVING-jumbo.jpg');
+            border: 2px solid red;
+            background-repeat: no-repeat; /*repeat-x and repeat-y will make it repeat on x and y axis.*/
+            /* background-position: 300px 100px; */
+            /* background-position: center center; */
+            /* background-position: center top; */
+            background-position: top top;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h3>This is Heading.</h3>
+    <p id="firstPara">This is a Paragraph.</p>
+    <h3>This is second Heading.</h3>
+    <p id="secondPara">This is my second Paragraph.</p>
+    <h3>This is third Heading.</h3>
+    <p id="thirdPara">This is my third Paragraph.</p>
+</body>
+
+</html>

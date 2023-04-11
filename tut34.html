@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and text Shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+
+    }
+
+    .card {
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background-color: burlywood ;
+        /* box-shadow: offsetx offsety color; */
+        /* box-shadow: offsetx offsety blurr radius color; */
+        /* box-shadow: offsetx offsety blurr radius spread radius color; */
+        box-shadow: 5px 8px rgb(78, 75, 34);
+        /* box-shadow: -5px -8px rgb(78, 75, 34); */
+        /* box-shadow: 5px 8px 10px 14px rgb(78, 75, 34);
+        box-shadow: 5px 8px 10px 14px rgba(78, 75, 34,1.4); */
+        box-shadow: inset 3px 5px green;
+        box-shadow: 3px 5px green, 5px 6px red;
+    }
+    .card h2{
+        /* text-shadow: 3px 4px rgb(253, 252, 251); */
+        text-shadow: 3px 2px 8px rgb(253, 252, 251);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2> Card1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, sapiente! Laudantium quam ipsa culpa
+                corporis repellendus possimus debitis adipisci quas corrupti ipsum saepe eius minima sapiente aut,
+                accusantium cupiditate voluptatem illum error necessitatibus nam.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2> Card2</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fugit numquam magnam maxime aliquam. Ut
+                quod suscipit nam harum eaque unde. Veniam esse voluptatibus explicabo eligendi porro molestiae! Ea
+                dolore iste fugit voluptatibus sed.</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2> Card3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fugit numquam magnam maxime aliquam. Ut
+                quod suscipit nam harum eaque unde. Veniam esse voluptatibus explicabo eligendi porro molestiae! Ea
+                dolore iste fugit voluptatibus sed.</p>
+        </div>
+    </div>
+</body>
+
+</html>
